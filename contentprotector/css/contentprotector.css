@@ -1,0 +1,66 @@
+.cpwp-protection-block {
+    border: 2px solid #ff0000;
+    padding: 20px;
+    background-color: #ffe6e6;
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+
+.cpwp-protection-block h2 {
+    margin-bottom: 20px;
+    color: #cc0000;
+}
+
+.cpwp-password-form p {
+    margin-bottom: 15px;
+}
+
+.cpwp-password-form input[type="password"],
+.cpwp-password-form input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cpwp-password-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cpwp-password-form input[type="submit"]:hover {
+    background-color: #a30000;
+}
+
+.cpwp-error {
+    color: #cc0000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .cpwp-protection-block {
+        padding: 15px;
+        margin: 30px 10px;
+    }
+
+    .cpwp-password-form input[type="password"],
+    .cpwp-password-form input[type="text"],
+    .cpwp-password-form input[type="submit"] {
+        width: 100%;
+        max-width: none;
+    }
+}
